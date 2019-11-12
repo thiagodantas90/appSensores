@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Bussula">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Bussula"
+        android:textSize="30dp" />
+
+    <TableLayout
+
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Magnetico: "
+                android:textSize="30dp"/>
+
+            <TextView
+                android:id="@+id/Mag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="valor"
+                android:textSize="30dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Magnetico uncalibrated: "
+                android:textSize="30dp"/>
+            <TextView
+                android:id="@+id/magUnc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="valor"
+                android:textSize="30dp" />
+        </TableRow>
+
+
+    </TableLayout>
+
+</LinearLayout>

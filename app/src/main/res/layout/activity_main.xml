@@ -2,78 +2,24 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/textoValor"
+    android:id="@+id/MainTela"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="Giroscopio"
-        android:textSize="30dp" />
-
-    <TableLayout
-
-        android:layout_margin="30dp"
+    <Button
+        android:id="@+id/btnGiroscopio"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:text="Giroscopio" />
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" >
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Eixo X: "
-                android:textSize="30dp"/>
-
-            <TextView
-                android:id="@+id/eixoX"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="valor"
-                android:textSize="30dp" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" >
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Eixo Y: "
-                android:textSize="30dp"/>
-            <TextView
-                android:id="@+id/eixoY"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="valor"
-                android:textSize="30dp" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" >
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Eixo Z: "
-                android:textSize="30dp"/>
-            <TextView
-                android:id="@+id/eixoZ"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="valor"
-                android:textSize="30dp" />
-        </TableRow>
-
-    </TableLayout>
-
+    <Button
+        android:id="@+id/btnBussula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:text="Bussula" />
 </LinearLayout>
