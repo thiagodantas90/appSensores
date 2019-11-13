@@ -2,33 +2,30 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/MainTela"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:gravity="center"
+    android:layout_margin="20dp"
+    tools:context=".Acelerometro">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acelerometro:"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="valor:"
+        android:textSize="30dp"/>
+    <TextView
+        android:id="@+id/aceleValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="Valor"
+        android:textSize="30dp"/>
 
 
-    <Button
-        android:id="@+id/btnGiroscopio"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Giroscopio" />
-
-    <Button
-        android:id="@+id/btnBussula"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Bussula" />
-    <Button
-        android:id="@+id/btnLigh"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Luminosidade"/>
-    <Button
-        android:id="@+id/btnAcelerometro"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Acelerometro"/>
 </LinearLayout>

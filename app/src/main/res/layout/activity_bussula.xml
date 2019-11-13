@@ -8,7 +8,6 @@
     tools:context=".Bussula">
 
     <TextView
-        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -18,8 +17,8 @@
     <TableLayout
 
         android:layout_margin="30dp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
         <TableRow
             android:layout_width="match_parent"
@@ -32,30 +31,24 @@
                 android:textSize="30dp"/>
 
             <TextView
-                android:id="@+id/Mag"
+                android:id="@+id/buss"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="valor"
                 android:textSize="30dp" />
         </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" >
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Magnetico uncalibrated: "
-                android:textSize="30dp"/>
-            <TextView
-                android:id="@+id/magUnc"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="valor"
-                android:textSize="30dp" />
-        </TableRow>
-
-
     </TableLayout>
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Direção"
+        android:textSize="30dp" />
+    <TextView
+        android:id="@+id/direcao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="valor"
+        android:textSize="30dp" />
 </LinearLayout>

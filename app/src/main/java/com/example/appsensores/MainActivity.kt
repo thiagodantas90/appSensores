@@ -15,17 +15,25 @@ import java.io.IOException
 
 
 class MainActivity : AppCompatActivity() {
-
+    var i = Intent()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
         btnGiroscopio.setOnClickListener(){
-            var i = Intent(this,Giroscopio::class.java)
+            i = Intent(this,Giroscopio::class.java)
             startActivity(i)
         }
         btnBussula.setOnClickListener(){
-            var i = Intent(this, Bussula::class.java)
+            i = Intent(this, Bussula::class.java)
+            startActivity(i)
+        }
+        btnLigh.setOnClickListener(){
+            i = Intent(this, Luminosidade::class.java)
+            startActivity(i)
+        }
+        btnAcelerometro.setOnClickListener(){
+            i = Intent(this, Acelerometro::class.java)
             startActivity(i)
         }
 
