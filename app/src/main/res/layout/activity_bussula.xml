@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:layout_margin="20dp"
     tools:context=".Bussula">
 
     <TextView
@@ -38,17 +39,5 @@
                 android:textSize="30dp" />
         </TableRow>
     </TableLayout>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="Direção"
-        android:textSize="30dp" />
-    <TextView
-        android:id="@+id/direcao"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="valor"
-        android:textSize="30dp" />
+
 </LinearLayout>

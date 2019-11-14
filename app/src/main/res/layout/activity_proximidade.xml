@@ -5,14 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="top"
     android:layout_margin="20dp"
-    tools:context=".Acelerometro">
+    tools:context=".Proximidade">
+
 
     <TextView
+        android:id="@+id/titulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Acelerometro:"
+        android:text="Proximidade"
         android:textSize="30dp"/>
     <TextView
         android:layout_width="match_parent"
@@ -20,12 +21,23 @@
         android:text="valor:"
         android:textSize="30dp"/>
     <TextView
-        android:id="@+id/aceleValor"
+        android:id="@+id/proxValor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
-        android:text="Valor"
+        android:text="Valor:"
         android:textSize="30dp"/>
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Situação:"
+        android:textSize="30dp"/>
+    <TextView
+        android:id="@+id/statusSensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="valor"
+        android:textSize="30dp"/>
 
 </LinearLayout>

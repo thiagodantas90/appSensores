@@ -12,7 +12,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Acelerometro"></activity>
+        <activity android:name=".Proximidade"></activity>
+        <activity android:name=".TodosSensores" />
+        <activity android:name=".verSensores" />
+        <activity android:name=".Acelerometro" />
         <activity android:name=".Luminosidade" />
         <activity android:name=".Bussula" />
         <activity android:name=".Giroscopio" />

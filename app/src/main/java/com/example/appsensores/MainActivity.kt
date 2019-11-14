@@ -15,7 +15,9 @@ import java.io.IOException
 
 
 class MainActivity : AppCompatActivity() {
+
     var i = Intent()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -36,6 +38,15 @@ class MainActivity : AppCompatActivity() {
             i = Intent(this, Acelerometro::class.java)
             startActivity(i)
         }
+        btnVerSensores.setOnClickListener(){
+            i = Intent(this, verSensores::class.java)
+            startActivity(i)
+        }
+        btnAproximacao.setOnClickListener(){
+            i = Intent(this, Proximidade::class.java)
+            startActivity(i)
+        }
+
 
     }
 
